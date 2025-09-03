@@ -2,7 +2,7 @@ package br.edu.ifsp.demo_clean.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import br.edu.ifsp.demo_clean.model.Venda;
+import br.edu.ifsp.demo_clean.model.Sale;
 
 
-public interface ReposVenda extends JpaRepository<Venda,Integer>{}
+public interface SaleRepository extends JpaRepository<Sale,Integer>{}
